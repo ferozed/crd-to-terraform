@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "crd2go"
+version = "0.1.0"
+description = "A tool to convert a Kubernetes CRD spec to a Golang structure"
+authors = ["Feroze Daud <ferozed.oss@gmail.com>"]
+license = "Apache"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PyYAML = "^6.0.1"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+crd2go = 'crd2go.ui:run'
+
