@@ -23,3 +23,5 @@ Example:
 ```
 poetry run crd2go example.txt example.yaml
 ```
+
+Look at the [example.txt](./example.txt) and [example.go](./example.go) in the root folder to see how the CRD spec is translated.
